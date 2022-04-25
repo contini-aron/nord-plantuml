@@ -2,23 +2,45 @@
 
 '
 ' Nord Theme
-'
+'   Polar Night
+!$nord0             = "#2E3440"
+!$nord1             = "#3B4252"
+!$nord2             = "#4345CE"
+!$nord3             = "#4C566A"
+
+'   Snow Storm
+!$nord4             = "#D8DEE9"
+!$nord5             = "#E5E9F0"
+!$nord6             = "#ECEFF4"
+
+'   Frost
+!$nord7             = "#8FBCBB"
+!$nord8             = "#88C0D0"
+!$nord9             = "#81A1C1"
+!$nord10            = "#5E81AC"
+
+'   Aurora
+!$nord12            = "#BF616A"
+!$nord13            = "#D08770"
+!$nord14            = "#EBCB8B"
+!$nord15            = "#A3BE8C"
+!$nord16            = "#B48EAD"
 '
 ' Colors
 '
 ' Foreground
-!$color_bg       = "#282c34"
-!$color_bg_light = "#424856"
+!$color_bg       =  $nord0
+!$color_bg_light =  $nord3
 
 ' Background
 !$color_fg       = "#abb2bf"
 
-!$color_red      = "#e06c75"
-!$color_green    = "#98c379"
-!$color_yellow   = "#e5c07b"
-!$color_blue     = "#61afef"
-!$color_purple   = "#c678dd"
-!$color_teal     = "#56b6c2"
+!$color_red      = $nord11
+!$color_green    = $nord14
+!$color_yellow   = $nord13
+!$color_blue     = $nord9
+!$color_purple   = $nord15
+!$color_teal     = $nord7
 
 !$color_primary  = $color_blue
 
